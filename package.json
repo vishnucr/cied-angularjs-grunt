@@ -1,0 +1,25 @@
+{
+  "name": "one2go",
+  "version": "1.0.0",
+  "description": "ride-sharing app",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "~1.8.4",
+    "grunt": "~0.4.0",
+    "grunt-cli": "~1.0.3",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "~3.4.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-watch": "~1.1.0"
+  },
+  "scripts": {
+    "start" : "node node_modules/http-server/bin/http-server -o"
+  },
+  "repository": {
+    "type": "git"
+  }
+}
